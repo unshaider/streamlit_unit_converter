@@ -7,7 +7,7 @@ st.set_page_config(page_title="Advanced Multi-Unit Converter", layout="wide")
 
 # Conversion Units Data Structure
 conversion_units = {
-    # -------------------- 1. Area --------------------
+    # 1. Area
     "Area": {
         "base": "Square Meter",
         "units": {
@@ -22,7 +22,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 2. Data Transfer Rate --------------------
+    # 2. Data Transfer Rate
     "Data Transfer Rate": {
         "base": "Bit per second",
         "units": {
@@ -46,7 +46,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 3. Digital Storage --------------------
+    # 3. Digital Storage
     "Digital Storage": {
         "base": "Byte",
         "units": {
@@ -65,7 +65,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 4. Energy --------------------
+    # 4. Energy
     "Energy": {
         "base": "Joule",
         "units": {
@@ -79,7 +79,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 5. Frequency --------------------
+    # 5. Frequency
     "Frequency": {
         "base": "Hertz",
         "units": {
@@ -90,7 +90,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 6. Fuel Economy --------------------
+    # 6. Fuel Economy
     "Fuel Economy": {
         "base": "Kilometers per Liter",
         "units": {
@@ -100,7 +100,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 7. Length --------------------
+    # 7. Length
     "Length": {
         "base": "Meter",
         "units": {
@@ -115,7 +115,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 8. Mass --------------------
+    # 8. Mass
     "Mass": {
         "base": "Kilogram",
         "units": {
@@ -128,7 +128,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 9. Plane Angle --------------------
+    # 9. Plane Angle
     "Plane Angle": {
         "base": "Radian",
         "units": {
@@ -139,7 +139,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 10. Pressure --------------------
+    # 10. Pressure
     "Pressure": {
         "base": "Pascal",
         "units": {
@@ -152,7 +152,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 11. Speed --------------------
+    # 11. Speed
     "Speed": {
         "base": "Meter per second",
         "units": {
@@ -164,7 +164,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 12. Temperature --------------------
+    # 12. Temperature
     "Temperature": {
         "base": "Kelvin",
         "units": {
@@ -174,7 +174,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 13. Time --------------------
+    # 13. Time
     "Time": {
         "base": "Second",
         "units": {
@@ -188,7 +188,7 @@ conversion_units = {
         }
     },
 
-    # -------------------- 14. Volume --------------------
+    # 14. Volume
     "Volume": {
         "base": "Liter",
         "units": {
