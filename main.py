@@ -1,7 +1,6 @@
 import streamlit as st
-import plotly.express as px
 import time
-import speech_recognition as sr
+# import speech_recognition as sr
 from audio_recorder_streamlit import audio_recorder
 
 st.set_page_config(page_title="Advanced Multi-Unit Converter", layout="wide")
