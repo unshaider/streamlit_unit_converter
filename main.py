@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 # import speech_recognition as sr
-from audio_recorder_streamlit import audio_recorder
+# from audio_recorder_streamlit import audio_recorder
 
 st.set_page_config(page_title="Advanced Multi-Unit Converter", layout="wide")
 
@@ -240,13 +240,13 @@ if category in conversion_units:
         to_unit = st.selectbox("To", units)
 
     # Voice Input
-    audio_bytes = audio_recorder()
-    if audio_bytes:
-        try:
-            # Process audio input here
-            pass
-        except Exception as e:
-            st.error("Error processing audio input")
+    # audio_bytes = audio_recorder()
+    # if audio_bytes:
+    #     try:
+    #         # Process audio input here
+    #         pass
+    #     except Exception as e:
+    #         st.error("Error processing audio input")
 
     # Conversion and Results
     if value:
