@@ -1,4 +1,0 @@
-streamlit
-time
-speech_recognition
-audio_recorder_streamlit

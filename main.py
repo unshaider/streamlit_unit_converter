@@ -1,9 +1,7 @@
 import streamlit as st
 import time
-# import speech_recognition as sr
-# from audio_recorder_streamlit import audio_recorder
 
-st.set_page_config(page_title="Advanced Multi-Unit Converter", layout="wide")
+st.set_page_config(page_title="Advanced Multi-Unit Converter", page_icon="📐")
 
 # Conversion Units Data Structure
 conversion_units = {
@@ -239,15 +237,6 @@ if category in conversion_units:
     with col3:
         to_unit = st.selectbox("To", units)
 
-    # Voice Input
-    # audio_bytes = audio_recorder()
-    # if audio_bytes:
-    #     try:
-    #         # Process audio input here
-    #         pass
-    #     except Exception as e:
-    #         st.error("Error processing audio input")
-
     # Conversion and Results
     if value:
         try:
@@ -293,34 +282,8 @@ else:
             st.write(f"**Input:** {entry['input']}")
             st.write(f"**Output:** {entry['output']}")
 
-# Documentation & Info
-with st.sidebar:
-    st.header("📘 Documentation")
-    st.markdown("""
-        **Features:**
-        - 14 conversion categories
-        - Real-time results
-        - Conversion history
-        - Voice input
-        - Interactive graphs
-        
-        **Usage:**
-        1. Select category
-        2. Enter value
-        3. Select units
-        4. View results
-    """)
-    
-    st.header("ℹ️ Unit Information")
-    if category in conversion_units:
-        selected_unit = st.selectbox("Select Unit", conversion_units[category]["units"].keys())
-        st.caption(f"Base unit: {conversion_units[category]['base']}")
-        if category != "Temperature":
-            base_value = conversion_units[category]["units"][selected_unit]
-            st.write(f"1 {selected_unit} = {base_value} {conversion_units[category]['base']}")
-
 # Footer
 st.markdown("""
 ---
-*Created with **Streamlit** ❤️ by **Syed Uns Haider Zaidi***
+*Created by **Syed Uns Haider Zaidi***
 """)
